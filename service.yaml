@@ -2,7 +2,7 @@ name: slack-llm-bot
 message: Summarizer
 image: docker.io/node:lts
 resources:
-  cluster: vessl-aws-seoul
+  cluster: vessl-aws-oregon
   preset: cpu-medium
 import:
   /app: git://github.com/vessl-ai/slack-llm-bot.git
