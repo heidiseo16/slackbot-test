@@ -2,10 +2,10 @@ name: slack-llm-bot
 message: Summarizer
 image: docker.io/node:lts
 resources:
-  cluster: vessl-aws-oregon
+  cluster: vessl-gcp-oregon
   preset: cpu-medium
 import:
-  /app: git://github.com/vessl-ai/slack-llm-bot.git
+  /app: git://github.com/heidiseo16/slackbot-test.git
 run:
   - command: |
       npm i -g pnpm
