@@ -3,7 +3,7 @@ message: Summarizer
 image: docker.io/node:lts
 resources:
   cluster: vessl-gcp-oregon
-  preset: cpu-medium
+  preset: gpu-l4-small
 import:
   /app: git://github.com/heidiseo16/slackbot-test.git
 run:
